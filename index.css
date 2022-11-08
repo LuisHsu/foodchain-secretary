@@ -1,0 +1,67 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #FFF5E0;
+}
+
+.player-row{
+    height: 44%;
+}
+
+.player-col{
+    height: 100%;
+    display: none;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.restaurant-image{
+    height: 50%;
+}
+
+.restaurant-name{
+    text-align: center;
+}
+
+.restaurant-value{
+    text-align: center;
+    font-size: 3em;
+    font-family: "VTCSuperMarketSaleRegular";
+}
+
+#center-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 12%;
+}
+
+#logo{
+    width: fit-content;
+    height: 100%;
+    margin-right: 5%;
+}
+
+#reserve-wrapper{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#reserve-value{
+    margin-left: 1em;
+    font-size: 3em;
+    font-family: "VTCSuperMarketSaleRegular";
+}
+
+#reserve-logo{
+    width: fit-content;
+    height: 60%;
+}
+
+@font-face {
+    font-family: 'VTCSuperMarketSaleRegular';
+    src: url('./public/VTCSuperMarketSaleRegular.ttf') format('truetype');
+}
